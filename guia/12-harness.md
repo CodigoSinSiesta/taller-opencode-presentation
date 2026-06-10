@@ -1,4 +1,4 @@
-# Slide 11 — Harness engineering
+# Slide 12 — Harness engineering
 
 ## Tesis
 Si construyes agentes, ya eres harness engineer. El repo es un prompt que se reactiva solo.

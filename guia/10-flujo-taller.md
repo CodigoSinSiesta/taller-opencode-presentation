@@ -1,4 +1,4 @@
-# Slide 9 — El flujo del taller
+# Slide 10 — El flujo del taller
 
 ## Tesis
 Un solo ciclo, repetible, sobre el mini gestor de tareas: añadir prioridades.

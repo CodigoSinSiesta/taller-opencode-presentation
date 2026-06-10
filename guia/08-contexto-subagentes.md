@@ -1,4 +1,4 @@
-# Slide 7 — Contexto y subagentes
+# Slide 8 — Contexto y subagentes
 
 ## Tesis
 El recurso escaso no es teclear: es el contexto (humano y del modelo).

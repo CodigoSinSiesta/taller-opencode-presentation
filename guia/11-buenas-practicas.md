@@ -1,4 +1,4 @@
-# Slide 10 — Buenas prácticas / alucinaciones
+# Slide 11 — Buenas prácticas / alucinaciones
 
 ## Tesis
 El agente genera texto probable, no verdad. La verificación es responsabilidad humana.

@@ -1,4 +1,4 @@
-# Slide 13 — Cierre
+# Slide 14 — Cierre
 
 ## Las 5 ideas
 1. OpenCode: open source, multi-modelo, sin lock-in.

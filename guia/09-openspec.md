@@ -1,4 +1,4 @@
-# Slide 8 — OpenSpec (SDD)
+# Slide 9 — OpenSpec (SDD)
 
 ## Tesis
 OpenSpec añade una capa ligera de specs: acordamos el qué antes del cómo, y queda versionado.

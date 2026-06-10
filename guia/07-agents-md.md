@@ -1,4 +1,4 @@
-# Slide 6 — AGENTS.md
+# Slide 7 — AGENTS.md
 
 ## Tesis
 AGENTS.md es el system prompt versionado de tu repo. Es el mayor multiplicador de calidad.

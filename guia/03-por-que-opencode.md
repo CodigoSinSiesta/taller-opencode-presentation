@@ -1,4 +1,4 @@
-# Slide 2 — Por qué OpenCode
+# Slide 3 — Por qué OpenCode
 
 ## Tesis
 No hay agente "mejor" universal; hay filosofías. OpenCode gana en apertura y control.

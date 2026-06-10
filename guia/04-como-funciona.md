@@ -1,4 +1,4 @@
-# Slide 3 — El bucle del agente
+# Slide 4 — El bucle del agente
 
 ## Tesis
 Un chatbot habla; un agente actúa. La diferencia es el acceso a herramientas y la iteración.

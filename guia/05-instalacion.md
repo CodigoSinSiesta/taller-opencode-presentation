@@ -1,4 +1,4 @@
-# Slide 4 — Instalación
+# Slide 5 — Instalación
 
 ## Tesis
 Bajar la barrera a cero: un comando y estás dentro.

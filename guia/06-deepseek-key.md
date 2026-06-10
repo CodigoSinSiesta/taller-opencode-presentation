@@ -1,4 +1,4 @@
-# Slide 5 — Conecta DeepSeek  ⭐ (slide operativa)
+# Slide 6 — Conecta DeepSeek  ⭐ (slide operativa)
 
 ## Antes de la charla
 - Pega la key efímera en `src/config/workshop.ts` → `DEEPSEEK_KEY`.

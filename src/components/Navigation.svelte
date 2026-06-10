@@ -4,7 +4,7 @@
   import { animateSlideEntrance, addButtonHoverAnimation } from '../utils/animations';
 
   let currentSlide = $state(0);
-  let totalSlides = 13;
+  let totalSlides = 14;
   let slides = $state([]);
   let menuOpen = $state(false);
 
@@ -18,6 +18,7 @@
 
   const slideNames = [
     'hero',
+    'recursos',
     'por-que-opencode',
     'como-funciona',
     'instalacion',
@@ -34,6 +35,7 @@
 
   const slideTitles = {
     'hero': 'Inicio',
+    'recursos': 'Recursos',
     'por-que-opencode': 'Por qué OpenCode',
     'como-funciona': 'El bucle del agente',
     'instalacion': 'Instalación',

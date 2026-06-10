@@ -32,7 +32,7 @@
 <span class="k">git clone</span> {STARTER_REPO}
 <span class="k">cd</span> taller-opencode-starter
 <span class="k">./scripts/setup.sh</span> .            <span class="c"># instala OpenCode + OpenSpec + deps</span>
-<span class="k">export</span> DEEPSEEK_API_KEY=<span class="s">"sk-…"</span>  <span class="c"># la key de la slide 5</span>
+<span class="k">export</span> DEEPSEEK_API_KEY=<span class="s">"sk-…"</span>  <span class="c"># la key de la slide 6</span>
 <span class="k">opencode</span></pre>
 
     <div class="callout">Abre <code>ejercicios/01-setup.md</code> y empezamos por el Paso 0.</div>

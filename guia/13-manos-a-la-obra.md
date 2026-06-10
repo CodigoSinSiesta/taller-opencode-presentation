@@ -1,4 +1,4 @@
-# Slide 12 — Manos a la obra
+# Slide 13 — Manos a la obra
 
 ## Tesis
 Tres vías al mismo punto: OpenCode + DeepSeek sobre el starter en 3 minutos.
