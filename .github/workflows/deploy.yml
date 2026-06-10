@@ -14,14 +14,20 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+# Fuerza Node 24 en las JS actions que aún declaran Node 20 (pnpm/action-setup,
+# upload-pages-artifact, deploy-pages). GitHub elimina Node 20 de los runners el
+# 16-09-2026; se puede quitar cuando esas actions publiquen un major con Node 24.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
       - name: Setup pnpm
