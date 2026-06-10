@@ -3,7 +3,8 @@
   import { animateSlideEntrance } from '@/utils/animations';
   import { STARTER_REPO, PRESENTATION_URL } from '@/config/workshop';
   let slideElement: HTMLElement;
-  const base = import.meta.env.BASE_URL;
+  // BASE_URL puede venir con o sin barra final segun astro.config; normalizamos.
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   onMount(() => { animateSlideEntrance(slideElement); });
 </script>
 
@@ -17,13 +18,13 @@
     <div class="grid-2">
       <div class="feature-card accent qr-card">
         <span class="fc-title">Taller · starter</span>
-        <div class="qr-panel"><img src={`${base}qr/starter.svg`} alt="QR al repositorio del taller" /></div>
+        <div class="qr-panel"><img src={`${base}/qr/starter.svg`} alt="QR al repositorio del taller" /></div>
         <a class="qr-url" href={STARTER_REPO} target="_blank" rel="noreferrer">github.com/CodigoSinSiesta/taller-opencode-starter</a>
         <span class="fc-body">Ábrelo → <code>Create codespace</code> y deja que construya.</span>
       </div>
       <div class="feature-card qr-card">
         <span class="fc-title">Esta presentación</span>
-        <div class="qr-panel"><img src={`${base}qr/presentation.svg`} alt="QR a la presentación" /></div>
+        <div class="qr-panel"><img src={`${base}/qr/presentation.svg`} alt="QR a la presentación" /></div>
         <a class="qr-url" href={PRESENTATION_URL} target="_blank" rel="noreferrer">codigosinsiesta.github.io/taller-opencode-presentation</a>
         <span class="fc-body">Sigue las slides desde tu móvil o portátil.</span>
       </div>
