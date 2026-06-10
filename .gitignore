@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+package-lock.json
+
+# build output
+dist/
+build/
+.astro/
+
+# development
+.env
+.env.local
+.env.*.local
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp
+*.log
+.cache/

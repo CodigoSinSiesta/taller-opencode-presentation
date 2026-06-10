@@ -1,0 +1,4 @@
+# Permite que estas dependencias ejecuten sus build scripts (binarios nativos).
+allowBuilds:
+  esbuild: true
+  sharp: true

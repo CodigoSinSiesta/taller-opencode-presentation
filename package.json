@@ -1,0 +1,26 @@
+{
+  "name": "taller-opencode-presentation",
+  "type": "module",
+  "version": "0.0.1",
+  "packageManager": "pnpm@11.5.2",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^7.2.2",
+    "astro": "^5.18.1",
+    "gsap": "^3.13.0",
+    "svelte": "^5.45.5",
+    "tailwindcss": "^4.1.17"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@tailwindcss/postcss": "^4.1.17",
+    "postcss": "^8.5.6",
+    "typescript": "^5.7.2"
+  }
+}

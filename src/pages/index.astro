@@ -1,0 +1,35 @@
+---
+import PresentationLayout from '../layouts/PresentationLayout.astro';
+import Navigation from '../components/Navigation.svelte';
+import Slide01Hero from '../components/slides/Slide01Hero.svelte';
+import Slide02PorQueOpenCode from '../components/slides/Slide02PorQueOpenCode.svelte';
+import Slide03ComoFunciona from '../components/slides/Slide03ComoFunciona.svelte';
+import Slide04Instalacion from '../components/slides/Slide04Instalacion.svelte';
+import Slide05DeepSeekKey from '../components/slides/Slide05DeepSeekKey.svelte';
+import Slide06AgentsMd from '../components/slides/Slide06AgentsMd.svelte';
+import Slide07ContextoSubagentes from '../components/slides/Slide07ContextoSubagentes.svelte';
+import Slide08OpenSpec from '../components/slides/Slide08OpenSpec.svelte';
+import Slide09FlujoTaller from '../components/slides/Slide09FlujoTaller.svelte';
+import Slide10BuenasPracticas from '../components/slides/Slide10BuenasPracticas.svelte';
+import Slide11Harness from '../components/slides/Slide11Harness.svelte';
+import Slide12ManosALaObra from '../components/slides/Slide12ManosALaObra.svelte';
+import Slide13Cierre from '../components/slides/Slide13Cierre.svelte';
+---
+
+<PresentationLayout title="Agentes de codificación con OpenCode">
+  <Navigation client:load>
+    <Slide01Hero />
+    <Slide02PorQueOpenCode client:load />
+    <Slide03ComoFunciona client:load />
+    <Slide04Instalacion client:load />
+    <Slide05DeepSeekKey client:load />
+    <Slide06AgentsMd client:load />
+    <Slide07ContextoSubagentes client:load />
+    <Slide08OpenSpec client:load />
+    <Slide09FlujoTaller client:load />
+    <Slide10BuenasPracticas client:load />
+    <Slide11Harness client:load />
+    <Slide12ManosALaObra client:load />
+    <Slide13Cierre client:load />
+  </Navigation>
+</PresentationLayout>
